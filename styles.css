@@ -1,33 +1,39 @@
-h1 {
-
+html {
+	text-align: center;
+	font-family: "Arial";
 }
 
-h2 {
+h1 {
+	font-size:50px;
+	color: red;
+}
 
+h3 {
+	text-decoration: underline;
+}
+
+h4 {
+	font-style: italic;
 }
 
 img {
-	width:128px;
-	height:128px;
-	border: 100px;
-	border-color: #FFFFFF;
+	width:300px;
+	height:300px;
+	border-style: double;
 }
 
 a {
    background-color:red;
-    border-top:0;
-    border-bottom:0;
     display:inline-block;
-    color:#fff;
-    font-family: Arial,Helvetica,sans-serif;
+    color: white;
     font-size:11px;
     font-weight:bold;
     line-height:30px;
-    text-decoration:none;
     padding:0 3px;
 }
 
 .resumeSection {
-	
+	border-style: solid;
+	border-width: 2px;
 }
 
